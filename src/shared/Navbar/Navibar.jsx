@@ -121,9 +121,9 @@ function NavListMenu() {
                 placement="bottom-start"
             >
                 <MenuHandler className=''>
-                    <Typography as="div" variant="small" className="font-normal">
+                    <Typography as="div" variant="medium">
                         <ListItem
-                            className="flex items-center gap-2 py-2 pr-4"
+                            className="flex items-center gap-2 py-2 pr-4 text-secondary-color font-medium"
                             selected={isMenuOpen || isMobileMenuOpen}
                             onClick={() => setIsMobileMenuOpen((cur) => !cur)}
                         >
@@ -161,8 +161,7 @@ function NavList() {
                 as="a"
                 href="#"
                 variant="small"
-                color="blue-gray"
-                className="font-normal"
+                className="font-medium text-secondary-color text-base"
             >
                 <Link to='/'>
                     <ListItem className="flex items-center gap-2 py-2 pr-4">
@@ -173,9 +172,8 @@ function NavList() {
             <Typography
                 as="a"
                 href="#"
-                variant="small"
-                color="blue-gray"
-                className="font-normal"
+                variant="medium"
+                className="font-medium text-secondary-color opacity"
             >
                 <ListItem className="flex items-center gap-2 py-2 pr-4">
                     Shop
@@ -184,9 +182,8 @@ function NavList() {
             <Typography
                 as="a"
                 href="#"
-                variant="small"
-                color="blue-gray"
-                className="font-normal"
+                variant="medium"
+                className="font-semibold text-secondary-color"
             >
                 <ListItem className="flex items-center gap-2 py-2 pr-4">
                     Resources
@@ -207,8 +204,8 @@ export function Navibar() {
     }, []);
 
     return (
-        <Navbar className="mx-auto max-w-full shadow-none border-[#171A21] border-opacity-5 lg:py-5 border-0 rounded-none border-b-2 px-4 py-2">
-            <div className="flex items-center justify-between lg:justify-self-auto text-blue-gray-900 max-w-screen-2xl mx-auto">
+        <Navbar className="mx-auto max-w-full shadow-none border-[#585A5E] border-opacity-30 lg:py-7 border-0 rounded-none border-b px-8 py-8">
+            <div className="max-w-screen-2xl mx-auto flex items-center justify-between lg:justify-self-auto">
                 <Link to='/'>
                     <Typography
                         as="a"
@@ -216,20 +213,20 @@ export function Navibar() {
                         variant="h4"
                         className="mr-4 cursor-pointer py-1.5"
                     >
-                        shob<span className="text-primary-color">event</span>
+                       <img src="/src/assets/images/logo.svg" alt="" />
                     </Typography>
                 </Link>
                 <div className="hidden lg:block">
                     <NavList />
                 </div>
-                <div className="hidden relative rounded-full bg-transparent border lg:flex items-center w-1/4 h-9">
+                <div className="hidden relative rounded-full bg-transparent border lg:flex items-center w-1/3 h-10 border-secondary-color">
                     <input
                         type="search"
                         placeholder="Search"
-                        className="w-full h-full p-1 pl-10 rounded-full bg-transparent placeholder:text-[#aaaaaa] "
+                        className="w-full h-full p-1 pl-10 rounded-full bg-transparent placeholder:text-secondary-color outline-0"
                     />
                     <div className="absolute inset-y-0 left-0 pl-4 flex items-center">
-                        <MagnifyingGlassIcon className="h-5 w-5 text-[#aaaaaa]" />
+                        <MagnifyingGlassIcon className="h-5 w-5 text-secondary-color" />
                     </div>
                 </div>
                 <div className="hidden gap-2 lg:flex">

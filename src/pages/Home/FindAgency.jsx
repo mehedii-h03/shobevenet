@@ -8,8 +8,8 @@ import {
 
 const FindAgency = () => {
     return (
-        <section className="mt-32 px-4 max-w-screen-2xl mx-auto">
-            <h2 className="text-3xl  md:text-4xl lg:text-[42px] font-bold text-center">2 ways to meet the right agencies in 24 hours.</h2>
+        <section className="mt-48 px-4 max-w-screen-2xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center leading-normal">2 ways to meet the right agencies <br /> in 24 hours.</h2>
             <div className="flex justify-center items-center md:items-start gap-10 mt-10 flex-col md:flex-row">
                 <Card className="mt-6 md:w-96 p-9 border-secondary-text-color border shadow-none rounded-lg">
                     <CardBody className="p-0 space-y-4">
