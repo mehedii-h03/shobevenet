@@ -1,0 +1,54 @@
+{
+    "services": [
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Audio Visual",
+            "shortDesc": "Lights and Sound"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Exhibition",
+            "shortDesc": "Stand System"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Decor & Event",
+            "shortDesc": "Production"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Event",
+            "shortDesc": "Registration"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Food & Beverages",
+            "shortDesc": "Food Items"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Artist & Talent",
+            "shortDesc": "Entertainment"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Photo & Video",
+            "shortDesc": "Services"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Venue",
+            "shortDesc": "Sourcing"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Event",
+            "shortDesc": "Design"
+        },
+        {
+            "icon": "https://example.com/service1-icon.png",
+            "name": "Operations & Logistics",
+            "shortDesc": "Management"
+        }
+    ]
+}
