@@ -1,3 +1,4 @@
+import NextNeed from "../../components/NextNeed";
 import Banner from "./Banner";
 import FindAgency from "./FindAgency";
 import JoinCommunity from "./JoinCommunity";
@@ -12,6 +13,7 @@ const Home = () => {
             <FindAgency></FindAgency>
             <Testimonial></Testimonial>
             <JoinCommunity></JoinCommunity>
+            <NextNeed></NextNeed>
         </section>
     );
 };

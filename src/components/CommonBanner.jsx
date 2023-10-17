@@ -55,12 +55,12 @@ const CommonBanner = ({ info }) => {
                 <DialogHeader className="justify-center text-secondary-color text-lg">
                     Shob<span className="text-primary-color">event</span>
                 </DialogHeader>
-                <DialogBody className="text-black text-center text-2xl leading-normal">
+                <DialogBody className="text-black text-center text-[22px] leading-normal">
                     {currentStep === 1 && (
                         <>
-                            We’ll ask you <br />
-                            <span className="font-bold">the right questions</span> <br />
-                            so we can introduce you to <br />
+                            <span className="font-normal">We’ll ask you</span> <br />
+                            <span className="font-semibold">the right questions</span> <br />
+                        <span className="font-normal">so we can introduce you to</span> <br />
                             <span className="font-bold">the right agencies.</span>
                         </>
                     )}
@@ -69,7 +69,7 @@ const CommonBanner = ({ info }) => {
                             {/* Content for the second step */}
                         </>
                     )}
-                    {/* Add more steps as needed */}
+
                 </DialogBody>
                 <DialogFooter className="justify-center pt-11">
                     {currentStep === 1 && (

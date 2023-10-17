@@ -89,12 +89,6 @@ function NavListMenu() {
         ({ icon, title, route, description, color }, key) => (
             <Link to={route} key={key}>
                 <MenuItem className="flex items-center rounded-none px-3 py-4 hover:bg-[#f1f1f1]">
-                    {/* <div className={`rounded-lg p-5 ${colors[color]}`}>
-                        {React.createElement(icon, {
-                            strokeWidth: 2,
-                            className: "h-6 w-6",
-                        })}
-                    </div> */}
                     <div>
                         <Typography
                             variant="h3"
@@ -120,14 +114,13 @@ function NavListMenu() {
                 offset={{ mainAxis: 20 }}
                 placement="bottom-start"
             >
-                <MenuHandler className=''>
+                <MenuHandler>
                     <Typography as="div" variant="medium">
                         <ListItem
                             className="flex items-center gap-2 py-2 pr-4 text-secondary-color font-medium"
                             selected={isMenuOpen || isMobileMenuOpen}
                             onClick={() => setIsMobileMenuOpen((cur) => !cur)}
                         >
-                            {/* <Square3Stack3DIcon className="h-[18px] w-[18px]" /> */}
                             Find Services
                             <ChevronDownIcon
                                 strokeWidth={2.5}
@@ -143,7 +136,7 @@ function NavListMenu() {
                     </Typography>
                 </MenuHandler>
                 <MenuList className="hidden rounded-md lg:block p-0 border-5">
-                    <ul className="grid grid-cols-2">{renderItems}</ul>
+                    <ul className="grid grid-cols-2 shadow-2xl">{renderItems}</ul>
                 </MenuList>
             </Menu>
             <div className="block lg:hidden">
@@ -242,7 +235,7 @@ export function Navibar() {
                     </div> */}
                     <IconButton variant="text">
                         {/* <HeartIcon /> */}
-                        <img src="/src/assets/icons/heart.svg" className="h-5 w-5"  alt="" />
+                        <img src="/src/assets/icons/heart.svg" className="h-5 w-5" alt="" />
                     </IconButton>
                     <Button size="sm"
                         className="hidden lg:inline-block hover:shadow-none rounded-full font-medium normal-case bg-primary-color text-sm px-6">
@@ -250,7 +243,7 @@ export function Navibar() {
                     </Button>
                     <IconButton variant="text">
                         {/* <i className="fas fa-heart" /> */}
-                        <img src="/src/assets/icons/user.svg" className="h-5 w-5"  alt="" />
+                        <img src="/src/assets/icons/user.svg" className="h-5 w-5" alt="" />
                     </IconButton>
                 </div>
                 <IconButton

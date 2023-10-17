@@ -1,4 +1,5 @@
 import CommonBanner from "../../components/CommonBanner";
+import NextNeed from "../../components/NextNeed";
 import HelpCenter from "./HelpCenter";
 
 const Help = () => {
@@ -11,6 +12,7 @@ const Help = () => {
         <>
             <CommonBanner info={info}></CommonBanner>
             <HelpCenter></HelpCenter>
+            <NextNeed></NextNeed>
         </>
     );
 };
