@@ -10,23 +10,6 @@ import {
 import "react-multi-carousel/lib/styles.css";
 
 const Testimonial = () => {
-    function StarIcon() {
-        return (
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="h-5 w-5 text-yellow-700"
-            >
-                <path
-                    fillRule="evenodd"
-                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                    clipRule="evenodd"
-                />
-            </svg>
-        );
-    }
-
     const card = <Card color="white" shadow={false} className="w-full max-w-[20rem] border-[0.5px] px-4 py-6 border-[#AAAAAA] rounded-lg">
         <CardHeader
             color="transparent"
@@ -42,25 +25,29 @@ const Testimonial = () => {
                 className="rounded-lg w-24 h-auto"
             />
             <div className="flex w-full flex-col gap-1">
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-2">
                     <Typography variant="h6" color="blue-gray" className="font-bold">
                         Tania Andrew
                     </Typography>
-                    <div className="flex items-center gap-1">
-                        <StarIcon />
-                        <StarIcon />
+                    <div className="flex items-center gap-[6px]">
+                        <img src="/src/assets/icons/promote.svg" alt="" />
+                        <img src="/src/assets/icons/verified.svg" alt="" />
+
                     </div>
                 </div>
                 <Typography color="blue-gray" className="text-sm font-semibold">
                     Frontend Lead @ Google
                 </Typography>
 
-                <div className="flex items-center gap-0">
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
+                <div className="flex gap-1">
+                    <div className="flex items-center gap-1">
+                        <img src="/src/assets/icons/star.svg" alt="" />
+                        <img src="/src/assets/icons/star.svg" alt="" />
+                        <img src="/src/assets/icons/star.svg" alt="" />
+                        <img src="/src/assets/icons/star.svg" alt="" />
+                        <img src="/src/assets/icons/star.svg" alt="" />
+                    </div>
+                    <p className="text-xs">(50)</p>
                 </div>
                 <Typography className="text-xs text-black font-medium">
                     Located in Am Friedrichshain 1, 10407 Berlin, Deutschland
@@ -120,14 +107,14 @@ const Testimonial = () => {
     // };
 
     return (
-        <section className="bg-[#A3D6F5] bg-opacity-25 mt-32  px-4">
+        <section className="bg-[#F9F5F1] bg-opacity-25 mt-32  px-4">
             <div className="max-w-screen-2xl mx-auto">
                 <div className="flex  justify-center gap-0 pt-14">
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
+                    <img src="/src/assets/icons/star-border.svg" alt="" />
+                    <img src="/src/assets/icons/star-border.svg" alt="" />
+                    <img src="/src/assets/icons/star-border.svg" alt="" />
+                    <img src="/src/assets/icons/star-border.svg" alt="" />
+                    <img src="/src/assets/icons/star-border.svg" alt="" />
                 </div>
                 <h3 className="text-4xl leading-snug font-bold text-center mt-5">90+ talented agencies with unique and verified <br /> customer reviews</h3>
                 <div className="mt-16 pb-14 flex justify-center">
