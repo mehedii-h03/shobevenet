@@ -37,17 +37,17 @@ const Footer = () => {
                             We are an independent partner who knows Marketing & Advertising agencies’ competitive landscape. Tell us your nees and we’ll tell you the agencies you must need.
                         </Typography>
                         <div className="flex gap-4">
-                            <IconButton className="rounded-full bg-[#B3DAFE]" size="sm">
-                                <i className="fas fa-heart" />f
+                            <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
+                                <img src="/src/assets/icons/facebook.svg" alt="" />
                             </IconButton>
-                            <IconButton className="rounded-full bg-[#B3DAFE]" size="sm">
-                                <i className="fas fa-heart" />I
+                            <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
+                                <img src="/src/assets/icons/instagram.svg" alt="" />
                             </IconButton>
-                            <IconButton className="rounded-full bg-[#B3DAFE]" size="sm">
-                                <i className="fas fa-heart" />In
+                            <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
+                                <img src="/src/assets/icons/linkedin.svg" alt="" />
                             </IconButton>
-                            <IconButton className="rounded-full bg-[#B3DAFE]" size="sm">
-                                <i className="fas fa-heart" />Dri
+                            <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
+                                <img src="/src/assets/icons/dribbble.svg" alt="" />
                             </IconButton>
                         </div>
 

@@ -5,9 +5,7 @@ module.exports = withMT({
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      // Replace the default fonts
       'sans': ['Poppins', 'sans-serif'],
-      // Or extend the default fonts
       'display': ['Poppins', 'sans-serif'],
     },
     extend: {
@@ -17,7 +15,9 @@ module.exports = withMT({
         'secondary-text-color': '#525764',
         'grayish-color': 'rgba(23, 26, 33, 0.25)'
       },
-
+      screens: {
+        's': { 'max': '539px' }
+      }
     },
   },
   plugins: [],

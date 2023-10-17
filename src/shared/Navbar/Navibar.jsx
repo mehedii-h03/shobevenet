@@ -88,7 +88,7 @@ function NavListMenu() {
     const renderItems = navListMenuItems.map(
         ({ icon, title, route, description, color }, key) => (
             <Link to={route} key={key}>
-                <MenuItem className="flex items-center rounded-none px-3 py-4">
+                <MenuItem className="flex items-center rounded-none px-3 py-4 hover:bg-[#f1f1f1]">
                     {/* <div className={`rounded-lg p-5 ${colors[color]}`}>
                         {React.createElement(icon, {
                             strokeWidth: 2,
@@ -213,7 +213,7 @@ export function Navibar() {
                         variant="h4"
                         className="mr-4 cursor-pointer py-1.5"
                     >
-                       <img src="/src/assets/images/logo.svg" alt="" />
+                        <img src="/src/assets/images/Logo.svg" alt="" />
                     </Typography>
                 </Link>
                 <div className="hidden lg:block">
@@ -241,7 +241,8 @@ export function Navibar() {
                         </div>
                     </div> */}
                     <IconButton variant="text">
-                        <HeartIcon className="h-5 w-5" />
+                        {/* <HeartIcon /> */}
+                        <img src="/src/assets/icons/heart.svg" className="h-5 w-5"  alt="" />
                     </IconButton>
                     <Button size="sm"
                         className="hidden lg:inline-block rounded-full font-medium normal-case bg-primary-color text-sm px-6">
@@ -249,7 +250,7 @@ export function Navibar() {
                     </Button>
                     <IconButton variant="text">
                         {/* <i className="fas fa-heart" /> */}
-                        <UserIcon className="h-5 w-5" />
+                        <img src="/src/assets/icons/user.svg" className="h-5 w-5"  alt="" />
                     </IconButton>
                 </div>
                 <IconButton

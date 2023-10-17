@@ -16,8 +16,8 @@ const BestAgencies = () => {
     const getItemProps = (index) =>
     ({
         variant: active === index ? "filled" : "text",
-        className: active === index ? "bg-primary-color rounded-full" : "rounded-full",
-        color: "gray",
+        className: active === index ? "bg-primary-color rounded-full" : "rounded-full border border-[#585A5E]",
+        // color: "gray",
         onClick: () => setActive(index),
     });
 
