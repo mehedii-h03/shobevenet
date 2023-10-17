@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="absolute left-0 top-[-25px] w-full flex justify-center">
                         <Button
                             size="sm"
-                            className="rounded-full sm: text-sm md:text-xs md:px-4 xl:text-xl xl:px-7 py-4 bg-primary-color text-white font-normal capitalize font-display"
+                            className="rounded-full sm: text-sm md:text-xs md:px-4 xl:text-xl xl:px-7 py-4 bg-primary-color text-white font-normal capitalize font-display hover:shadow-none"
                         >
                             Get Started - <span className="italic font-medium">It&apos;s Free!</span>
                         </Button>

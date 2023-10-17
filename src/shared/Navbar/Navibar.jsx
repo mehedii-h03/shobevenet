@@ -245,7 +245,7 @@ export function Navibar() {
                         <img src="/src/assets/icons/heart.svg" className="h-5 w-5"  alt="" />
                     </IconButton>
                     <Button size="sm"
-                        className="hidden lg:inline-block rounded-full font-medium normal-case bg-primary-color text-sm px-6">
+                        className="hidden lg:inline-block hover:shadow-none rounded-full font-medium normal-case bg-primary-color text-sm px-6">
                         Post a project
                     </Button>
                     <IconButton variant="text">

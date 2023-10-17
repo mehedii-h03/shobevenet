@@ -24,7 +24,7 @@ const FindAgency = () => {
                     <CardFooter className="mt-7 p-0">
                         <a href="" className="inline-block">
                             <Button size="sm"
-                                className="rounded-full font-medium normal-case bg-primary-color text-sm px-6">
+                                className="rounded-full font-medium normal-case bg-primary-color text-sm px-6 hover:shadow-none">
                                 Post a project
                             </Button>
                         </a>

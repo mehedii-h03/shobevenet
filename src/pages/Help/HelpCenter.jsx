@@ -55,7 +55,13 @@ const HelpCenter = () => {
                         <Button fullWidth variant="text" className="rounded-md normal-case font-medium text-sm border border-primary-color text-primary-color hover:bg-primary-color hover:text-white">Continue</Button>
                     </CardFooter>
                 </Card>
-
+            </div>
+            <div className="text-center mb-32">
+                <h2 className="text-secondary-color text-3xl font-semibold">Now What are you looking for?</h2>
+                <Button size="sm"
+                    className="rounded-full hover:shadow-none font-normal normal-case text-lg bg-primary-color px-10 py-3 mt-10">
+                    Chat with us
+                </Button>
             </div>
         </section>
     );

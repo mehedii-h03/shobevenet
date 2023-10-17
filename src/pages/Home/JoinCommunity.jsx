@@ -20,7 +20,7 @@ const JoinCommunity = () => {
                         Describe your needs so our algorithm can suggest the best agencies for you. Connect with the ones you like and hire your favourite.
                     </Typography>
                     <Button size="sm"
-                        className="mt-8 rounded-full font-medium normal-case bg-primary-color text-sm px-6">
+                        className="mt-8 rounded-full font-medium normal-case bg-primary-color text-sm px-6 hover:shadow-none">
                         Get listed
                     </Button>
                 </CardBody>

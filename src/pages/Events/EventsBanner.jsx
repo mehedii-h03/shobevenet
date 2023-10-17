@@ -14,17 +14,14 @@ const EventsBanner = () => {
     const handleOpen = () => setOpen(!open);
 
     const handleStartNow = () => {
-        // Move to the next step when "Start Now" is clicked.
         setCurrentStep(currentStep + 1);
     };
 
     const handleNext = () => {
-        // Move to the next step when "Next" is clicked.
         setCurrentStep(currentStep + 1);
     };
 
     const handlePrev = () => {
-        // Move to the previous step when "Prev" is clicked.
         setCurrentStep(currentStep - 1);
     };
     return (
@@ -45,7 +42,6 @@ const EventsBanner = () => {
                     </Button>
                 </Link>
             </div>
-            {/* Modal */}
             {/* Modal */}
             <Dialog open={open} handler={() => setOpen(false)} className="rounded-3xl py-11" size="md">
                 <DialogHeader className="justify-center text-secondary-color text-lg">
