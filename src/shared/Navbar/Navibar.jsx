@@ -183,7 +183,7 @@ function NavList() {
                 as="a"
                 href="#"
                 variant="medium"
-                className="font-semibold text-secondary-color"
+                className="font-medium text-secondary-color"
             >
                 <ListItem className="flex items-center gap-2 py-2 pr-4">
                     Resources
