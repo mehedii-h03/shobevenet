@@ -38,16 +38,16 @@ const Footer = () => {
                         </Typography>
                         <div className="flex gap-4">
                             <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
-                                <img src="/src/assets/icons/facebook.svg" alt="" />
+                                <img src="../../../src/assets/icons/facebook.svg" alt="" />
                             </IconButton>
                             <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
-                                <img src="/src/assets/icons/instagram.svg" alt="" />
+                                <img src="../../../src/assets/icons/instagram.svg" alt="" />
                             </IconButton>
                             <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
-                                <img src="/src/assets/icons/linkedin.svg" alt="" />
+                                <img src="../../../src/assets/icons/linkedin.svg" alt="" />
                             </IconButton>
                             <IconButton className="rounded-full bg-[#f9f5f1]" size="sm">
-                                <img src="/src/assets/icons/dribbble.svg" alt="" />
+                                <img src="../../../src/assets/icons/dribbble.svg" alt="" />
                             </IconButton>
                         </div>
 

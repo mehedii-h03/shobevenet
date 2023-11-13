@@ -15,7 +15,7 @@ const HelpCenter = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-10 mt-20 mb-28">
                 <Card className="py-10 px-8 w-[400px] border border-[#585A5E] rounded-lg text-center shadow-none">
                     <CardBody className="p-0">
-                        <img className="mx-auto mb-2" src="/src/assets/icons/message.svg" alt="" />
+                        <img className="mx-auto mb-2" src="../../../src/assets/icons/message.svg" alt="" />
                         <Typography className="text-2xl font-semibold text-secondary-color">
                             General FAQ
                         </Typography>
@@ -29,7 +29,7 @@ const HelpCenter = () => {
                 </Card>
                 <Card className="py-10 px-8 w-[400px] border border-[#585A5E] rounded-lg text-center shadow-none">
                     <CardBody className="p-0">
-                        <img className="mx-auto mb-2" src="/src/assets/icons/users.svg" alt="" />
+                        <img className="mx-auto mb-2" src="../../../src/assets/icons/users.svg" alt="" />
                         <Typography className="text-2xl font-semibold text-secondary-color">
                             I’m a prospect
                         </Typography>
@@ -43,7 +43,7 @@ const HelpCenter = () => {
                 </Card>
                 <Card className="py-10 px-8 w-[400px] border border-[#585A5E] rounded-lg text-center shadow-none">
                     <CardBody className="p-0">
-                        <img className="mx-auto mb-2" src="/src/assets/icons/briefcase.svg" alt="" />
+                        <img className="mx-auto mb-2" src="../../../src/assets/icons/briefcase.svg" alt="" />
                         <Typography className="text-2xl font-semibold text-secondary-color">
                             I’m an agency
                         </Typography>

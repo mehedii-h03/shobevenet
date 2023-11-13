@@ -8,6 +8,8 @@ import {
 } from "@material-tailwind/react";
 // import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+// icons
+
 
 const Testimonial = () => {
     const card = <Card color="white" shadow={false} className="w-full max-w-[20rem] border-[0.5px] px-4 py-6 border-[#AAAAAA] rounded-lg">
@@ -30,8 +32,8 @@ const Testimonial = () => {
                         Tania Andrew
                     </Typography>
                     <div className="flex items-center gap-[6px]">
-                        <img src="/src/assets/icons/promote.svg" alt="" />
-                        <img src="/src/assets/icons/verified.svg" alt="" />
+                        <img src="../../../src/assets/icons/promote.svg" alt="" />
+                        <img src="../../../src/assets/icons/verified.svg" alt="" />
 
                     </div>
                 </div>
@@ -41,11 +43,11 @@ const Testimonial = () => {
 
                 <div className="flex gap-1">
                     <div className="flex items-center gap-1">
-                        <img src="/src/assets/icons/star.svg" alt="" />
-                        <img src="/src/assets/icons/star.svg" alt="" />
-                        <img src="/src/assets/icons/star.svg" alt="" />
-                        <img src="/src/assets/icons/star.svg" alt="" />
-                        <img src="/src/assets/icons/star.svg" alt="" />
+                        <img src="../../../src/assets/icons/star.svg" alt="" />
+                        <img src="../../../src/assets/icons/star.svg" alt="" />
+                        <img src="../../../src/assets/icons/star.svg" alt="" />
+                        <img src="../../../src/assets/icons/star.svg" alt="" />
+                        <img src="../../../src/assets/icons/star.svg" alt="" />
                     </div>
                     <p className="text-xs">(50)</p>
                 </div>
@@ -110,11 +112,11 @@ const Testimonial = () => {
         <section className="bg-[#F9F5F1] bg-opacity-25 mt-32  px-4">
             <div className="max-w-screen-2xl mx-auto">
                 <div className="flex  justify-center gap-0 pt-14">
-                    <img src="/src/assets/icons/star-border.svg" alt="" />
-                    <img src="/src/assets/icons/star-border.svg" alt="" />
-                    <img src="/src/assets/icons/star-border.svg" alt="" />
-                    <img src="/src/assets/icons/star-border.svg" alt="" />
-                    <img src="/src/assets/icons/star-border.svg" alt="" />
+                    <img src="../../../src/assets/icons/star-border.svg" alt="" />
+                    <img src="../../../src/assets/icons/star-border.svg" alt="" />
+                    <img src="../../../src/assets/icons/star-border.svg" alt="" />
+                    <img src="../../../src/assets/icons/star-border.svg" alt="" />
+                    <img src="../../../src/assets/icons/star-border.svg" alt="" />
                 </div>
                 <h3 className="text-4xl leading-snug font-bold text-center mt-5">90+ talented agencies with unique and verified <br /> customer reviews</h3>
                 <div className="mt-16 pb-14 flex justify-center">

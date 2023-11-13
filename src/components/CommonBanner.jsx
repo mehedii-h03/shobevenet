@@ -6,7 +6,6 @@ import {
     DialogBody,
     DialogFooter,
 } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
 
 
 const CommonBanner = ({ info }) => {
@@ -32,7 +31,7 @@ const CommonBanner = ({ info }) => {
     return (
         <section className="relative h-[64vh] mb-24">
             <div
-                className="absolute inset-0 bg-[url('/src/assets/images/banner-bg.png')] bg-center -z-0"
+                className="absolute inset-0 bg-banner bg-center -z-0"
             ></div>
             <div
                 className="absolute inset-0 bg-secondary-color z-0"
@@ -60,7 +59,7 @@ const CommonBanner = ({ info }) => {
                         <>
                             <span className="font-normal">We’ll ask you</span> <br />
                             <span className="font-semibold">the right questions</span> <br />
-                        <span className="font-normal">so we can introduce you to</span> <br />
+                            <span className="font-normal">so we can introduce you to</span> <br />
                             <span className="font-bold">the right agencies.</span>
                         </>
                     )}

@@ -1,5 +1,6 @@
 import { Button } from "@material-tailwind/react";
 
+
 const Banner = () => {
     return (
         <section className="s:mt-10 mt-28">
@@ -9,7 +10,7 @@ const Banner = () => {
             </div>
             <div className="relative w-full h-[60vh] lg:h-[80vh]">
                 <div
-                    className="bg-[url('/src/assets/images/banner-bg.jpg')] absolute inset-0 bg-no-repeat bg-cover bg-top">
+                    className="bg-banner absolute inset-0 bg-no-repeat bg-cover bg-top">
                     <div className="absolute left-0 top-[-25px] w-full flex justify-center">
                         <Button
                             size="sm"

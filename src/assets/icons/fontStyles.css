@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "shobevent";
+  src:url("fonts/shobevent.eot");
+  src:url("fonts/shobevent.eot?#iefix") format("embedded-opentype"),
+    url("fonts/shobevent.woff") format("woff"),
+    url("fonts/shobevent.ttf") format("truetype"),
+    url("fonts/shobevent.svg#shobevent") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "shobevent" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="se-"]:before,
+[class*=" se-"]:before {
+  font-family: "shobevent" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.se-artist:before {
+  content: "\61";
+}
+.se-audio:before {
+  content: "\62";
+}
+.se-briefcase:before {
+  content: "\63";
+}
+.se-catalog:before {
+  content: "\64";
+}
+.se-decor-event:before {
+  content: "\65";
+}
+.se-dollar-sign:before {
+  content: "\66";
+}
+.se-down-arrow:before {
+  content: "\67";
+}
+.se-dribbble:before {
+  content: "\68";
+}
+.se-event-design:before {
+  content: "\69";
+}
+.se-event-registration:before {
+  content: "\6a";
+}
+.se-event-type:before {
+  content: "\6b";
+}
+.se-exhibition:before {
+  content: "\6c";
+}
+.se-facebook:before {
+  content: "\6d";
+}
+.se-file-minus:before {
+  content: "\6e";
+}
+.se-food:before {
+  content: "\6f";
+}
+.se-heart:before {
+  content: "\70";
+}
+.se-instagram:before {
+  content: "\71";
+}
+.se-left-arrow:before {
+  content: "\72";
+}
+.se-linkedin:before {
+  content: "\73";
+}
+.se-logistic:before {
+  content: "\74";
+}
+.se-magnifying:before {
+  content: "\75";
+}
+.se-message:before {
+  content: "\76";
+}
+.se-photo-video:before {
+  content: "\77";
+}
+.se-project:before {
+  content: "\78";
+}
+.se-promote:before {
+  content: "\79";
+}
+.se-right-arrow:before {
+  content: "\7a";
+}
+.se-searchbar-shape:before {
+  content: "\41";
+}
+.se-star:before {
+  content: "\42";
+}
+.se-star-border:before {
+  content: "\43";
+}
+.se-user:before {
+  content: "\44";
+}
+.se-users:before {
+  content: "\45";
+}
+.se-venue-location:before {
+  content: "\46";
+}
+.se-verified:before {
+  content: "\47";
+}

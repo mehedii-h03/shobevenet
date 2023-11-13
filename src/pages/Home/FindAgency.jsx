@@ -13,7 +13,7 @@ const FindAgency = () => {
             <div className="flex justify-center items-center md:items-start gap-10 mt-10 flex-col md:flex-row">
                 <Card className="mt-6 md:w-96 p-9 border-secondary-text-color border shadow-none rounded-lg">
                     <CardBody className="p-0 space-y-4">
-                        <img src="/src/assets/icons/project.svg" alt="" />
+                        <img src="../../../src/assets/icons/project.svg" alt="" />
                         <Typography variant="h4" color="blue-gray" className="mb-2">
                             Post a project. Meet agencies.
                         </Typography>
@@ -32,7 +32,7 @@ const FindAgency = () => {
                 </Card>
                 <Card className="mt-6 md:w-96 p-9 border-secondary-text-color border shadow-none rounded-lg">
                     <CardBody className="p-0 space-y-4">
-                        <img src="/src/assets/icons/catalog.svg" alt="" />
+                        <img src="../../../src/assets/icons/catalog.svg" alt="" />
                         <Typography variant="h4" color="blue-gray" className="mb-2">
                             Explore our catalog of providers.
                         </Typography>

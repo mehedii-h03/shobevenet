@@ -1,54 +1,64 @@
 {
     "services": [
         {
-            "icon": "/src/assets/icons/audio.svg",
+            "iconClass": "se-audio",
             "name": "Audio Visual",
             "shortDesc": "Lights and Sound"
+            
         },
         {
-            "icon": "/src/assets/icons/exhibition.svg",
+            "iconClass": "se-exhibition",
             "name": "Exhibition",
             "shortDesc": "Stand System"
+            
         },
         {
-            "icon": "/src/assets/icons/decor-event.svg",
+            "iconClass": "se-decor-event",
             "name": "Decor & Event",
             "shortDesc": "Production"
+            
         },
         {
-            "icon": "/src/assets/icons/event-registration.svg",
+            "iconClass": "se-event-registration",
             "name": "Event",
             "shortDesc": "Registration"
+            
         },
         {
-            "icon": "/src/assets/icons/food.svg",
+            "iconClass": "se-food",
             "name": "Food & Beverages",
             "shortDesc": "Food Items"
+            
         },
         {
-            "icon": "/src/assets/icons/artist.svg",
+            "iconClass": "se-artist",
             "name": "Artist & Talent",
             "shortDesc": "Entertainment"
+            
         },
         {
-            "icon": "/src/assets/icons/photo-video.svg",
+            "iconClass": "se-photo-video",
             "name": "Photo & Video",
             "shortDesc": "Services"
+            
         },
         {
-            "icon": "/src/assets/icons/venue-location.svg",
+            "iconClass": "se-venue-location",
             "name": "Venue",
             "shortDesc": "Sourcing"
+            
         },
         {
-            "icon": "/src/assets/icons/event-type.svg",
+            "iconClass": "se-event-design",
             "name": "Event",
             "shortDesc": "Design"
+            
         },
         {
-            "icon": "/src/assets/icons/logistic.svg",
+            "iconClass": "se-",
             "name": "Operations & Logistics",
             "shortDesc": "Management"
+            
         }
     ]
 }

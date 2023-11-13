@@ -28,6 +28,10 @@ import {
     UserIcon
 } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+// logo
+import logo from "../../../src/assets/images/Logo.svg";
+
+// icons 
 
 
 const navListMenuItems = [
@@ -206,7 +210,7 @@ export function Navibar() {
                         variant="h4"
                         className="mr-4 cursor-pointer py-1.5"
                     >
-                        <img src="/src/assets/images/Logo.svg" alt="" />
+                        <img src={logo} alt="" />
                     </Typography>
                 </Link>
                 <div className="hidden lg:block">
@@ -234,16 +238,14 @@ export function Navibar() {
                         </div>
                     </div> */}
                     <IconButton variant="text">
-                        {/* <HeartIcon /> */}
-                        <img src="/src/assets/icons/heart.svg" className="h-5 w-5" alt="" />
+                        <i className="se-heart text-xl"></i>
                     </IconButton>
                     <Button size="sm"
                         className="hidden lg:inline-block hover:shadow-none rounded-full font-medium normal-case bg-primary-color text-sm px-6">
                         Post a project
                     </Button>
                     <IconButton variant="text">
-                        {/* <i className="fas fa-heart" /> */}
-                        <img src="/src/assets/icons/user.svg" className="h-5 w-5" alt="" />
+                        <i className="se-user" />
                     </IconButton>
                 </div>
                 <IconButton

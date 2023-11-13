@@ -27,7 +27,7 @@ const EventsBanner = () => {
     return (
         <section className="relative h-[60vh] mb-20">
             <div
-                className="absolute inset-0 bg-[url('/src/assets/images/banner-bg.png')] bg-center -z-0"
+                className="absolute inset-0 bg-banner bg-center -z-0"
             ></div>
             <div
                 className="absolute inset-0 bg-secondary-color opacity-90 z-0"

@@ -9,6 +9,9 @@ module.exports = withMT({
       'display': ['Poppins', 'sans-serif'],
     },
     extend: {
+      backgroundImage: {
+        'banner': "url('https://i.ibb.co/tLWpMW9/banner-bg-2.jpg')",
+      },
       colors: {
         'primary-color': '#6F23D9',
         'secondary-color': '#1B2130',
